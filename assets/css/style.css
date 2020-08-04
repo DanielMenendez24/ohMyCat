@@ -1,3 +1,23 @@
 html {
     scroll-behavior: smooth;
 }
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.index {
+    display: inline-block;
+    position: fixed;
+    align-content: center;
+    background-color: steelblue;
+}
+
+.list {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition: .3s;
+}
