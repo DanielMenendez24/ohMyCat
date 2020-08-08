@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -5,28 +7,35 @@ html {
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Amarant;
+}
+
+body{
+    
 }
 
 .imgheader{
     position: fixed;
     height: 40px;
+    margin: 0px 5px 2px 5px;
 }
 
 .index {
+    color: white;
     display: block;
     position: fixed;
     align-content: center;
-    background-color: white;
+    background-color: #222222;
     width: 100%;
     height: 40px;
-    border-bottom: 1px solid #222222;
-    box-shadow: 5px 0px 5px #222222;
+    /* border-bottom: 1px solid lightgray; */
+    /* box-shadow: 5px 0px 5px #222222; */
 }
 
 .ind {
     float: right;
     text-align: right;
-    color: #222222;
+    color: white;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     transition: .3s;
@@ -34,7 +43,8 @@ html {
 
 .ind:hover {
     background-color: lightgray;
-    border-bottom: 2px solid salmon;
+    color: black;
+    border-bottom: 2px solid #555555;
 }
 
 .ind:active {
